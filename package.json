@@ -1,0 +1,31 @@
+{
+	"name": "backtick-library",
+	"version": "0.0.1",
+	"description": "A curated library of commands for Backtick.",
+	"main": "build.js",
+	"dependencies": {
+	},
+	"devDependencies": {
+		"fs-extra": "^3.0.1",
+		"download": "latest"
+	},
+	"scripts": {
+		"build": "build.js",
+		"test": "test.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://iambriansreed@github.com/backtickbacktick/Library.git"
+	},
+	"keywords": [
+		"chrome-extension",
+		"javascript",
+		"backtick"
+	],
+	"author": "Brian Reed <me@iambrian.com> (http://iambrian.com)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/backtickbacktick/Library/issues"
+	},
+	"homepage": "https://github.com/backtickbacktick/Library#readme"
+}
