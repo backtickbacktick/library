@@ -6,12 +6,13 @@
 	"dependencies": {},
 	"devDependencies": {
 		"cdcm": "0.0.3",
+		"colors": "^1.1.2",
 		"download": "latest",
 		"fs-extra": "^3.0.1"
 	},
 	"scripts": {
-		"build": "json-build.js",
-		"test": "test.js"
+		"json-build": "node _library/json-build.js",
+		"test": "node _library/test.js"
 	},
 	"repository": {
 		"type": "git",

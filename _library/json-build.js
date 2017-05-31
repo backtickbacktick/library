@@ -2,6 +2,7 @@
 
 const cdcm = require('/Users/iambriansreed/cdcm');
 const fs = require('fs-extra');
+const path = require('path');
 
 let config = {
   localPath: './.tmp',
@@ -9,7 +10,9 @@ let config = {
   linkFileExt: ['.js'],
 };
 
-let commandDirs = getDirectories('./').filter(dir => dir !== 'node_modules');
+console.log('JSON building...');
+
+let commandDirs = require('./commandDirectoriesList')();
 
 fs.ensureDirSync('./.tmp/commands');
 fs.emptyDirSync('./.tmp/commands');
@@ -30,9 +33,8 @@ cdcm(config).getData().then(data => {
 
   fs.removeSync('./.tmp');
   fs.removeSync('./.tmp-cdcm');
-});
 
-function getDirectories(srcpath) {
-  return fs.readdirSync(srcpath).
-      filter(file => fs.lstatSync(path.join(srcpath, file)).isDirectory());
-}
+
+  console.log('JSON built.');
+
+});

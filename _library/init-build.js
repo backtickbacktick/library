@@ -2,13 +2,12 @@
 
 const fs = require('fs-extra');
 const download = require('download');
-
 const commands = getCommands() ||
     [{gistID: '', src: '', name: '', description: '', link: '', icon: ''}];
 
 console.info('Building ' + commands.length + ' commands:' + '\r\n');
 
-let commandDirs = getDirectories('./').filter(dir => dir !== 'node_modules');
+let commandDirs = require('./commandDirectoriesList')();
 
 commandDirs.forEach(dir => fs.removeSync('./' + dir));
 
@@ -206,9 +205,4 @@ function slugify(text) {
       .replace(/\-\-+/g, '-')         // Replace multiple - with single -
       .replace(/^-+/, '')             // Trim - from start of text
       .replace(/-+$/, '');            // Trim - from end of text
-}
-
-function getDirectories(srcpath) {
-  return fs.readdirSync(srcpath).
-      filter(file => fs.lstatSync(path.join(srcpath, file)).isDirectory());
 }
