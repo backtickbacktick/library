@@ -19,7 +19,7 @@ commands.forEach(command => {
 
   console.info('Building ' + command.name + '...');
 
-  let path = './commands/' + dir;
+  let path = './' + dir;
 
   fs.ensureDirSync(path);
   fs.emptyDirSync(path);
@@ -37,7 +37,7 @@ commands.forEach(command => {
   delete command.src;
   delete command.icon;
 
-  fs.writeJsonSync(path + '/details.json', command);
+  fs.writeFileSync(path + '/details.json', JSON.stringify(command, null, '\t'));
 
   console.info('Done with ' + command.name + '...' + '\r\n');
 
