@@ -29,11 +29,10 @@ cdcm(config).getData().then(data => {
     output[kind.type] = kind.items;
   });
 
-  fs.writeJsonSync('./commands.json', output.commands);
+  fs.writeJsonSync('./commands.json', output.commands, {spaces: 4});
 
   fs.removeSync('./.tmp');
   fs.removeSync('./.tmp-cdcm');
-
 
   console.log('JSON built.');
 
