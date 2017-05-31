@@ -3,15 +3,16 @@
 	"version": "0.0.1",
 	"description": "A curated library of commands for Backtick.",
 	"main": "build.js",
-	"dependencies": {
-	},
+	"dependencies": {},
 	"devDependencies": {
-		"fs-extra": "^3.0.1",
-		"download": "latest"
+		"cdcm": "0.0.3",
+		"colors": "^1.1.2",
+		"download": "latest",
+		"fs-extra": "^3.0.1"
 	},
 	"scripts": {
-		"build": "build.js",
-		"test": "test.js"
+		"json-build": "npm test && node _library/json-build.js",
+		"test": "node _library/test.js"
 	},
 	"repository": {
 		"type": "git",

@@ -1,10 +1,15 @@
+/* build folders from existing commands list */
+
 const fs = require('fs-extra');
 const download = require('download');
-
-console.log(123);
-
 const commands = getCommands() ||
     [{gistID: '', src: '', name: '', description: '', link: '', icon: ''}];
+
+console.info('Building ' + commands.length + ' commands:' + '\r\n');
+
+let commandDirs = require('./commandDirectoriesList')();
+
+commandDirs.forEach(dir => fs.removeSync('./' + dir));
 
 commands.forEach(command => {
 
@@ -12,26 +17,29 @@ commands.forEach(command => {
 
   if (!dir) return true;
 
-  let path = './' + dir;
+  console.info('Building ' + command.name + '...');
+
+  let path = './commands/' + dir;
 
   fs.ensureDirSync(path);
   fs.emptyDirSync(path);
 
-  let description = command.description;
-
-  fs.outputFileSync(path + '/description.md', description);
-
   download(command.src).
       then(data => { fs.outputFileSync(path + '/command.js', data); });
 
-  download(command.icon).
-      then(data => { fs.outputFileSync(path + '/icon.png', data); });
+  if (command.icon)
+    download(command.icon).
+        then(data => { fs.outputFileSync(path + '/icon.png', data); });
 
+  command.author = command.author || 'JoelBesada';
+
+  delete command.gistID;
   delete command.src;
-  delete command.description;
   delete command.icon;
 
   fs.writeJsonSync(path + '/details.json', command);
+
+  console.info('Done with ' + command.name + '...' + '\r\n');
 
 });
 
@@ -175,6 +183,7 @@ function getCommands() {
       gistID: 'ee98ca9dc1a9c6470822',
       src: 'https://gist.githubusercontent.com/iambriansreed/2e0b4a7bb8570964e4a7ba0b4fd96472/raw/14d02ae8f3faf3b33017e2a15a871c88f5f59619/command.js',
       name: 'WhatFont',
+      author: 'iambriansreed',
       description: 'The easiest way to identify fonts on web pages.',
       link: 'http://chengyinliu.com/whatfont.html',
       icon: 'https://s3.amazonaws.com/backtickio/icons/whatfont.png',

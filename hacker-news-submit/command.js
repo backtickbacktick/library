@@ -1,0 +1,1 @@
+window.location="http://news.ycombinator.com/submitlink?u="+encodeURIComponent(document.location)+"&t="+encodeURIComponent(document.title)

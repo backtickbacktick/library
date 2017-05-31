@@ -1,0 +1,1 @@
+(function(){window.open('http://bufferapp.com/add?url='+encodeURIComponent(window.location)+'&text='+encodeURIComponent(window.document.title))})()
