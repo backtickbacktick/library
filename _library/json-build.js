@@ -29,7 +29,9 @@ cdcm(config).getData().then(data => {
     output[kind.type] = kind.items;
   });
 
-  fs.writeJsonSync('./commands.json', output.commands, {spaces: 4});
+  fs.writeFileSync('./commands.json',
+      JSON.stringify(output.commands, null, '\t').
+          replace(/Library\/master\/commands/g, 'Library/master'));
 
   fs.removeSync('./.tmp');
   fs.removeSync('./.tmp-cdcm');
