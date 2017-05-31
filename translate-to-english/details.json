@@ -1,1 +1,6 @@
-{"name":"Translate to English","description":"Translate the current page to English with Google Translate.","link":"http://translate.google.com/","author":"JoelBesada"}
+{
+	"name": "Translate to English",
+	"description": "Translate the current page to English with Google Translate.",
+	"link": "http://translate.google.com/",
+	"author": "JoelBesada"
+}

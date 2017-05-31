@@ -1,1 +1,6 @@
-{"name":"Instapaper Read Later","description":"Save the page to be read later on Instapaper.","link":"http://www.instapaper.com","author":"JoelBesada"}
+{
+	"name": "Instapaper Read Later",
+	"description": "Save the page to be read later on Instapaper.",
+	"link": "http://www.instapaper.com",
+	"author": "JoelBesada"
+}

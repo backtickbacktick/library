@@ -1,1 +1,6 @@
-{"name":"Facebook Share","description":"Share the current page on Facebook.","link":"https://www.facebook.com","author":"JoelBesada"}
+{
+	"name": "Facebook Share",
+	"description": "Share the current page on Facebook.",
+	"link": "https://www.facebook.com",
+	"author": "JoelBesada"
+}

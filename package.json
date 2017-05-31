@@ -11,7 +11,7 @@
 		"fs-extra": "^3.0.1"
 	},
 	"scripts": {
-		"json-build": "npm test && node _library/json-build.js",
+		"start": "npm test && node _library/json-build.js",
 		"test": "node _library/test.js"
 	},
 	"repository": {

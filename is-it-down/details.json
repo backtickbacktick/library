@@ -1,1 +1,6 @@
-{"name":"Is it Down?","description":"Check if the current page is down for everyone or just you.","link":"http://www.downforeveryoneorjustme.com/","author":"JoelBesada"}
+{
+	"name": "Is it Down?",
+	"description": "Check if the current page is down for everyone or just you.",
+	"link": "http://www.downforeveryoneorjustme.com/",
+	"author": "JoelBesada"
+}
