@@ -1,0 +1,1 @@
+location.href='http:/'+'/www.google.com/search?q=site%3a'+document.domain.replace('www.','') + '%20' + prompt('Search for: ');

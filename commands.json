@@ -1,0 +1,169 @@
+[
+	{
+		"slug": "add-to-backtick",
+		"command": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/add-to-backtick/command.js",
+		"name": "Add to Backtick",
+		"description": "Add the current command gist on GitHub to Backtick.",
+		"author": "JoelBesada",
+		"icon": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/add-to-backtick/icon.png"
+	},
+	{
+		"slug": "amazon-wish-list",
+		"command": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/amazon-wish-list/command.js",
+		"name": "Amazon Wish List",
+		"description": "Add item to your Amazon Wish List.",
+		"link": "http://www.amazon.com",
+		"author": "JoelBesada",
+		"icon": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/amazon-wish-list/icon.png"
+	},
+	{
+		"slug": "bitly-bitmark",
+		"command": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/bitly-bitmark/command.js",
+		"name": "Bitly Bitmark",
+		"description": "Create a bitly bitmark from the current page.",
+		"link": "http://bit.ly",
+		"author": "JoelBesada",
+		"icon": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/bitly-bitmark/icon.png"
+	},
+	{
+		"slug": "buffer-share",
+		"command": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/buffer-share/command.js",
+		"name": "Buffer Share",
+		"description": "Add the current page to share on Buffer.",
+		"link": "http://bufferapp.com",
+		"author": "JoelBesada",
+		"icon": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/buffer-share/icon.png"
+	},
+	{
+		"slug": "facebook-share",
+		"command": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/facebook-share/command.js",
+		"name": "Facebook Share",
+		"description": "Share the current page on Facebook.",
+		"link": "https://www.facebook.com",
+		"author": "JoelBesada",
+		"icon": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/facebook-share/icon.png"
+	},
+	{
+		"slug": "google-cache",
+		"command": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/google-cache/command.js",
+		"name": "Google Cache",
+		"description": "View a cached version of the current page.",
+		"link": "https://www.google.com/",
+		"author": "JoelBesada",
+		"icon": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/google-cache/icon.png"
+	},
+	{
+		"slug": "google-share",
+		"command": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/google-share/command.js",
+		"name": "Google+ Share",
+		"description": "Share the current page on Google+.",
+		"link": "https://plus.google.com",
+		"author": "JoelBesada",
+		"icon": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/google-share/icon.png"
+	},
+	{
+		"slug": "google-site-search",
+		"command": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/google-site-search/command.js",
+		"name": "Google Site Search",
+		"description": "Performs a Google site search on the current domain.",
+		"link": "http://google.com",
+		"author": "JoelBesada",
+		"icon": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/google-site-search/icon.png"
+	},
+	{
+		"slug": "hacker-news-submit",
+		"command": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/hacker-news-submit/command.js",
+		"name": "Hacker News Submit",
+		"description": "Submit the current page to Hacker News.",
+		"link": "https://news.ycombinator.com/",
+		"author": "JoelBesada",
+		"icon": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/hacker-news-submit/icon.png"
+	},
+	{
+		"slug": "instapaper-read-later",
+		"command": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/instapaper-read-later/command.js",
+		"name": "Instapaper Read Later",
+		"description": "Save the page to be read later on Instapaper.",
+		"link": "http://www.instapaper.com",
+		"author": "JoelBesada",
+		"icon": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/instapaper-read-later/icon.png"
+	},
+	{
+		"slug": "is-it-down",
+		"command": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/is-it-down/command.js",
+		"name": "Is it Down?",
+		"description": "Check if the current page is down for everyone or just you.",
+		"link": "http://www.downforeveryoneorjustme.com/",
+		"author": "JoelBesada"
+	},
+	{
+		"slug": "pinterest-share",
+		"command": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/pinterest-share/command.js",
+		"name": "Pinterest Share",
+		"description": "Share the current page on Pinterest.",
+		"link": "https://www.pinterest.com",
+		"author": "JoelBesada",
+		"icon": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/pinterest-share/icon.png"
+	},
+	{
+		"slug": "post-to-tumblr",
+		"command": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/post-to-tumblr/command.js",
+		"name": "Post to Tumblr",
+		"description": "Post the content from the current page to your Tumblr blog.",
+		"link": "http://tumblr.com",
+		"author": "JoelBesada",
+		"icon": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/post-to-tumblr/icon.png"
+	},
+	{
+		"slug": "reddit-submit",
+		"command": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/reddit-submit/command.js",
+		"name": "Reddit Submit",
+		"description": "Submit the current page to Reddit.",
+		"link": "http://www.reddit.com/",
+		"author": "JoelBesada",
+		"icon": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/reddit-submit/icon.png"
+	},
+	{
+		"slug": "rulers-guides",
+		"command": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/rulers-guides/command.js",
+		"name": "Rulers & Guides",
+		"description": "Add Photoshop-like rulers and guides to the current page.",
+		"link": "http://mark-rolich.github.io/RulersGuides.js/",
+		"author": "JoelBesada"
+	},
+	{
+		"slug": "translate-to-english",
+		"command": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/translate-to-english/command.js",
+		"name": "Translate to English",
+		"description": "Translate the current page to English with Google Translate.",
+		"link": "http://translate.google.com/",
+		"author": "JoelBesada",
+		"icon": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/translate-to-english/icon.png"
+	},
+	{
+		"slug": "twitter-share",
+		"command": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/twitter-share/command.js",
+		"name": "Twitter Share",
+		"description": "Share the current page on Twitter.",
+		"link": "https://twitter.com",
+		"author": "JoelBesada",
+		"icon": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/twitter-share/icon.png"
+	},
+	{
+		"slug": "whatfont",
+		"command": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/whatfont/command.js",
+		"name": "WhatFont",
+		"author": "iambriansreed",
+		"description": "The easiest way to identify fonts on web pages.",
+		"link": "http://chengyinliu.com/whatfont.html",
+		"icon": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/whatfont/icon.png"
+	},
+	{
+		"slug": "whois-lookup",
+		"command": "https://raw.githubusercontent.com/backtickbacktick/Library/master/commands/whois-lookup/command.js",
+		"name": "Whois Lookup",
+		"description": "Open a whois lookup for the current page.",
+		"link": "http://whois.domaintools.com",
+		"author": "JoelBesada"
+	}
+]

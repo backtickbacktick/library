@@ -1,0 +1,1 @@
+void(window.open("https://plus.google.com/share?url="+encodeURIComponent(location), "Share to Google+","width=600,height=460,menubar=no,location=no,status=no"));

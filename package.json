@@ -3,14 +3,14 @@
 	"version": "0.0.1",
 	"description": "A curated library of commands for Backtick.",
 	"main": "build.js",
-	"dependencies": {
-	},
+	"dependencies": {},
 	"devDependencies": {
-		"fs-extra": "^3.0.1",
-		"download": "latest"
+		"cdcm": "0.0.3",
+		"download": "latest",
+		"fs-extra": "^3.0.1"
 	},
 	"scripts": {
-		"build": "build.js",
+		"build": "json-build.js",
 		"test": "test.js"
 	},
 	"repository": {
