@@ -52,6 +52,7 @@ function getCommands() {
       name: 'Add to Backtick',
       description: 'Add the current command gist on GitHub to Backtick.',
       icon: 'https://backtickio.s3.amazonaws.com/icons/backtick.png',
+      required: true,
     },
     {
       gistID: '7699000',
