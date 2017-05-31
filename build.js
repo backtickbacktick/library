@@ -9,7 +9,14 @@ let config = {
   linkFileExt: ['.js'],
 };
 
-fs.copySync('./commands', './.tmp/commands');
+let commandDirs = getDirectories('./').filter(dir => dir !== 'node_modules');
+
+fs.ensureDirSync('./.tmp/commands');
+fs.emptyDirSync('./.tmp/commands');
+
+commandDirs.forEach(dir => {
+  fs.copySync('./' + dir, './.tmp/commands/' + dir);
+});
 
 cdcm(config).getData().then(data => {
 
@@ -24,3 +31,8 @@ cdcm(config).getData().then(data => {
   fs.removeSync('./.tmp');
   fs.removeSync('./.tmp-cdcm');
 });
+
+function getDirectories(srcpath) {
+  return fs.readdirSync(srcpath).
+      filter(file => fs.lstatSync(path.join(srcpath, file)).isDirectory());
+}
