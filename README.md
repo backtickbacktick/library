@@ -7,4 +7,6 @@ If you think you have an awesome command you would like to be available to all u
 2. Submit an [issue](https://github.com/backtickbacktick/Library/issues/new) including a link to your gist. 
 3. [Dance](http://www.succeedsocially.com/dance).
 
-Note: The `_library` folder contains tasked used to build command the library JSON and validation testing.
+
+The `_library` folder contains tasked used to build the library and for validation and testing.
+Repository serving as a CDN here: https://backtickbacktick.github.io/library/
