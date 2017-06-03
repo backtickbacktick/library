@@ -6,7 +6,7 @@ const path = require('path');
 
 let config = {
     localPath: './.tmp',
-    cdnUrl: 'https://backtickbacktick.github.io/library',
+    cdnUrl: 'https://backtick.ninja/library',
     linkFileExt: ['.js']
 };
 
