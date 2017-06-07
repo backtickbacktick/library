@@ -1,1 +1,0 @@
-location.href='http://www.downforeveryoneorjustme.com/' + escape(location.hostname) + ' ' ;
