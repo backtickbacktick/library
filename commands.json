@@ -81,14 +81,6 @@
 		"icon": "https://backtick.ninja/library/instapaper-read-later/icon.png"
 	},
 	{
-		"slug": "is-it-down",
-		"command": "https://backtick.ninja/library/is-it-down/command.js",
-		"name": "Is it Down?",
-		"description": "Check if the current page is down for everyone or just you.",
-		"link": "http://www.downforeveryoneorjustme.com/",
-		"author": "JoelBesada"
-	},
-	{
 		"slug": "pinterest-share",
 		"command": "https://backtick.ninja/library/pinterest-share/command.js",
 		"name": "Pinterest Share",
