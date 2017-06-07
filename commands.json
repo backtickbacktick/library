@@ -134,15 +134,6 @@
 		"icon": "https://backtick.ninja/library/twitter-share/icon.png"
 	},
 	{
-		"slug": "whatfont",
-		"command": "https://backtick.ninja/library/whatfont/command.js",
-		"name": "WhatFont",
-		"author": "iambriansreed",
-		"description": "The easiest way to identify fonts on web pages.",
-		"link": "http://chengyinliu.com/whatfont.html",
-		"icon": "https://backtick.ninja/library/whatfont/icon.png"
-	},
-	{
 		"slug": "whois-lookup",
 		"command": "https://backtick.ninja/library/whois-lookup/command.js",
 		"name": "Whois Lookup",
