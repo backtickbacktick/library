@@ -1,0 +1,6 @@
+{
+	"slug": "example-command",
+	"name": "Example Command",
+	"description": "A Backtick Hello World example command.",
+	"link": "https://backtick.ninjs"
+}

@@ -1,4 +1,5 @@
 {
+	"slug": "bitly-bitmark",
 	"name": "Bitly Bitmark",
 	"description": "Create a bitly bitmark from the current page.",
 	"link": "http://bit.ly",

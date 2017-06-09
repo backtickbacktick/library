@@ -12,7 +12,7 @@ let config = {
 
 console.log('JSON building...');
 
-let commandDirs = require('./commandDirectoriesList')();
+let commandDirs = require('./commandDirectoriesList')('example-command');
 
 fs.ensureDirSync('./.tmp/commands');
 fs.emptyDirSync('./.tmp/commands');

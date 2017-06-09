@@ -1,4 +1,5 @@
 {
+	"slug": "reddit-submit",
 	"name": "Reddit Submit",
 	"description": "Submit the current page to Reddit.",
 	"link": "http://www.reddit.com/",

@@ -1,4 +1,5 @@
 {
+	"slug": "whois-lookup",
 	"name": "Whois Lookup",
 	"description": "Open a whois lookup for the current page.",
 	"link": "http://whois.domaintools.com",

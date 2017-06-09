@@ -1,4 +1,5 @@
 {
+	"slug": "post-to-tumblr",
 	"name": "Post to Tumblr",
 	"description": "Post the content from the current page to your Tumblr blog.",
 	"link": "http://tumblr.com",
