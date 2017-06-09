@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Backtick - Commands Library</title>
+    <meta name="description"
+          content="Backtick is a console for bookmarklets and scripts, packaged as a Chrome extension.">
+    <link rel="chrome-webstore-item"
+          href="https://chrome.google.com/webstore/detail/daiejhinmmfgincamkeeobmpffhdljim">
+    <link rel="icon" href="https://backtick.ninja/assets/images/backtick.png">
+
+    <link rel="stylesheet" href="https://backtick.ninja/css/main.css">
+</head>
+<body>
+<div class="site-container">
+    <header>
+        <h1><a href="/"><img src="https://backtick.ninja/assets/images/backtick.png" alt="Backtick">Backtick</a></h1>
+        <span class="subheading">Powerful Commands, Just One Tick Away</span>
+    </header>
+
+    <p class="sorry">
+        Sorry, this extension is for Chrome only.
+    </p>
+
+    <div class="section">
+        <h2>Curated Commands</h2>
+        <p class="text-center">These are commands you can enable and disable in the options.</p>
+        <ul class="commands-list"></ul>
+    </div>
+
+    <div class="section">
+        <h2>Miscellaneous Commands</h2>
+        <ul class="gists-list"></ul>
+    </div>
+
+    <div class="section">
+
+        <p class="share-links">
+            Share on: <a
+                href="https://twitter.com/home?status=Checkout%20this%20awesome%20Chrome%20Extension%20making%20the%20CLI%20commands%20for%20the%20browser%20awesome!%20http%3A//backtick.ninja"
+                target="_blank">Twitter</a> &ndash; <a
+                href="https://www.facebook.com/sharer/sharer.php?u=http%3A//backtick.ninja"
+                target="_blank">Facebook</a> &ndash; <a
+                href="https://plus.google.com/share?url=http%3A//backtick.ninja"
+                target="_blank">Google+</a>
+        </p>
+    </div>
+</div>
+<script>if (!window.chrome || false) {
+    document.body.className = 'not-chrome';
+}</script>
+
+<script src="https://backtick.ninja/scripts/main.js"></script>
+<script src="https://backtick.ninja/scripts/library.js"></script>
+</body>
+</html>
